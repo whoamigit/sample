@@ -3,3 +3,4 @@ https://cwiki.apache.org/confluence/display/FLINK/Task+Failures+and+Error+Handli
 https://flink.apache.org/2019/06/05/flink-network-stack.html#credit-based-flow-control.  //credit based control flow
 https://flink.apache.org/2021/07/07/backpressure.html. //how do i idengify backpressure flow
 https://cwiki.apache.org/confluence/display/FLINK/Flink+Internals. //flink internal working
+https://nightlies.apache.org/flink/flink-docs-master/docs/internals/job_scheduling/.   //scheduling
