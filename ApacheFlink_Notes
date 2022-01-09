@@ -5,3 +5,4 @@ https://flink.apache.org/2021/07/07/backpressure.html. //how do i idengify backp
 https://cwiki.apache.org/confluence/display/FLINK/Flink+Internals. //flink internal working
 https://nightlies.apache.org/flink/flink-docs-master/docs/internals/job_scheduling/.   //scheduling
 https://flink.apache.org/news/2020/10/13/stateful-serverless-internals.html
+https://cwiki.apache.org/confluence/display/FLINK/FLIP-94%3A+Rework+2-phase+commit+abstractions
