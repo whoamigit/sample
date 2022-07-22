@@ -5,8 +5,16 @@ Why you're doing?
 4. how they're managing resiliance. 
 5. how easily they can able to integreate with other systems-like Razor pay. 
 6. how they can customize per bank, customer, merchants. 
+7. how to integreate with UPI? What's the process?
+
 
 ---
+Questions?
+Why am I getting UPI as ‘okhdfcbank’ when I’m using an SBI account?
+
+https://www.quora.com/Why-am-I-getting-UPI-as-okhdfcbank-when-I-m-using-an-SBI-account
+
+
 Why they buid the UPI and Razor PAy?
 
 What's difference between UPI and Razor Pay. 
@@ -28,3 +36,15 @@ https://www.npci.org.in/PDF/npci/upi/Product-Booklet.pdf
 
 how to integreae with UPI
 https://blog.cashfree.com/upi-integration/
+
+
+Technical understanding of the Unified Payment Interface 
+https://medium.com/@chiragbhattad/technical-understanding-of-the-unified-payment-interface-upi-part-1-ce0f4b8c1fcb
+
+
+payment service provider:
+
+https://www.npci.org.in/what-we-do/upi/3rd-party-apps
+
+how UPI Payment works 
+https://medium.com/dice-india/the-enabling-power-of-upi-payments-4060826c2a16
