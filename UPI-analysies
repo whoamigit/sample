@@ -1,0 +1,30 @@
+Why you're doing?
+1. Need to understand their architecture?
+2. how they're capable of handling lot of transaction?
+3. what's their deployment arechitecture. 
+4. how they're managing resiliance. 
+5. how easily they can able to integreate with other systems-like Razor pay. 
+6. how they can customize per bank, customer, merchants. 
+
+---
+Why they buid the UPI and Razor PAy?
+
+What's difference between UPI and Razor Pay. 
+
+
+What is UPI and how it Works
+https://en.wikipedia.org/wiki/Unified_Payments_Interface#:~:text=UPI%20is%20an%20open%20source,Immediate%20Payment%20Service%20(IMPS).
+
+UPI is similar to open banking
+https://www.quora.com/Is-there-any-official-app-for-UPI-Unified-Payment-Interface
+
+
+
+https://www.npci.org.in/what-we-do/upi/product-overview
+
+UPI product overivew 
+https://www.npci.org.in/what-we-do/upi/product-overview
+https://www.npci.org.in/PDF/npci/upi/Product-Booklet.pdf
+
+how to integreae with UPI
+https://blog.cashfree.com/upi-integration/
