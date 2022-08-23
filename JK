@@ -1,0 +1,25 @@
+Vijay logs onto PaytM and searches for options to buy Atta
+
+The gateways will check the multi-domain registry and
+broadcast search to retail seller apps
+The following search results are displayed to Vijay to
+choose from:
+Gupta Kirana Store- INR 50 (without delivery)
+Nearshop (fulfilled by Modern Kirana Store) - INR
+150 (with Delivery)
+
+Vijay places order for Atta through Gupta Kirana Store
+(without delivery)
+
+Vijay searches for delivery services
+The gateway will check the multi-domain registry and
+broadcast search to delivery seller nodes
+Vijay is informed that Dunzo will deliver from Gupta KIrana
+Store at IN 50 and Goodbox at IN 70 in his Pincode.
+
+Vijay selects Dunzo for delivery.
+Vijay is told through seller apps that he can make payment
+through UP or COD
+Vijay makes payment of IN 50 through UPI via VPA
+for Atta from Gupta Kirana Store & INR 50 for delivery
+via Dunzo.
