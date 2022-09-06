@@ -51,3 +51,10 @@ https://docs.oracle.com/database/121/TTERR/error.htm#TTERR111
 https://docs.oracle.com/database/121/JJUCP/err_cod_ref.htm#JJUCP8239. //all the error codes for connection pool
 
 https://www.softwaretestinghelp.com/jdbc-exception-handling/. // VIP Categories Of SQLException
+
+https://stackoverflow.com/questions/52853209/retry-jdbc-connection-in-java. 
+https://dzone.com/articles/spring-retry-way-to-handle-failures
+https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access
+https://opengauss.org/en/docs/1.0.0/docs/Developerguide/example-retrying-sql-queries-for-applications.html. 
+https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access //verify that 
+
