@@ -1,0 +1,49 @@
+Oracle datbase retry:
+
+Oracle transient erros 
+https://docs.oracle.com/database/timesten-18.1/TTGRD/failover.htm#TTGRD386   // add to confluence page
+https://docs.oracle.com/database/121/DRDAS/error_code.htm#DRDAS514  //possible error codes
+
+https://stackoverflow.com/questions/32298447/detecting-oracle-database-transient-faults-and-reducing-retries-across-multiple
+
+https://stackify.com/resilient-applications-polly/
+https://www.javaspecialists.eu/archive/Issue138-Better-SQLExceptions-in-Java-6.html
+https://medium.com/the-legend/error-handling-on-microservice-a513f2c32079
+https://docs.oracle.com/database/timesten-18.1/TTPLS/exceptions.htm
+https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/diagnosing-repairing-failures-dra.html
+
+https://stackoverflow.com/questions/28609565/spring-is-losing-connection-to-the-db-and-does-not-recover-or-reconnect
+
+https://stackoverflow.com/questions/39587530/spring-boot-how-to-set-retry-attempts-for-oracle-production-database-connection  //VIP
+
+https://community.oracle.com/tech/developers/discussion/4056866/intermittently-jdbc-connection-errors // It has recommndations 
+
+https://stackoverflow.com/questions/22684807/spring-boot-jpa-configuring-auto-reconnect/22687418#22687418  //good example 
+      spring.datasource.testOnBorrow=true
+     spring.datasource.validationQuery=SELECT 1
+
+     Note that the use of autoReconnect is not recommended:
+
+The use of this feature is not recommended, because it has side effects related to session state and data consistency when applications don't handle SQLExceptions properly, and is only designed to be used when you are unable to configure your application to handle SQLExceptions resulting from dead and stale connections properly.
+
+
+https://www.cockroachlabs.com/blog/what-is-connection-pooling/   // how connection pool works
+
+
+https://docs.oracle.com/database/121/TTERR/error.htm#TTERR111
+  private static void printSQLExceptions(SQLException e)
+{
+     while (e != null) {
+
+        System.out.println("SQLState: " + 
+        e.getSQLState());
+        System.out.println("Message : " + 
+        e.getMessage());
+        System.out.println("Vendor  : " + 
+        e.getErrorCode());
+        e.printStackTrace();
+        e = e.getNextException();
+        System.out.println("");
+     }
+      e.printStackTrace();
+}
