@@ -57,4 +57,5 @@ https://dzone.com/articles/spring-retry-way-to-handle-failures
 https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access
 https://opengauss.org/en/docs/1.0.0/docs/Developerguide/example-retrying-sql-queries-for-applications.html. 
 https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access //verify that 
+https://docs.oracle.com/javase/tutorial/jdbc/basics/sqlexception.html. //error codes
 
