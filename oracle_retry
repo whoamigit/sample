@@ -59,4 +59,7 @@ https://opengauss.org/en/docs/1.0.0/docs/Developerguide/example-retrying-sql-que
 https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access //verify that 
 https://docs.oracle.com/javase/tutorial/jdbc/basics/sqlexception.html. //error codes
 https://stackoverflow.com/questions/32324172/specifying-an-exception-specific-backoff-policy-with-spring-retry.  // here sql transit and recovery exception for retry
+https://docs.oracle.com/javadb/10.8.3.0/ref/rrefexcept71493.html. // erro code reference for connection... search for conneciton. 
+https://docs.oracle.com/en/database/oracle/oracle-database/19/jjucp/error-codes-reference.html#GUID-13577739-E376-4B27-8DD7-7CCA993239B1. //UCP error codes
+https://docs.oracle.com/en/database/oracle/oracle-database/21/jjdbc/JDBC-error-messages.html#GUID-4B127F75-44EE-4BF5-BA00-54A502A1EA06. //finally got erro codes
 
