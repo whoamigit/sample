@@ -58,4 +58,5 @@ https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data
 https://opengauss.org/en/docs/1.0.0/docs/Developerguide/example-retrying-sql-queries-for-applications.html. 
 https://www.ibm.com/docs/en/was/9.0.5?topic=resources-exceptions-pertaining-data-access //verify that 
 https://docs.oracle.com/javase/tutorial/jdbc/basics/sqlexception.html. //error codes
+https://stackoverflow.com/questions/32324172/specifying-an-exception-specific-backoff-policy-with-spring-retry.  // here sql transit and recovery exception for retry
 
