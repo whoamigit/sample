@@ -65,3 +65,4 @@ https://docs.oracle.com/en/database/oracle/oracle-database/21/jjdbc/JDBC-error-m
 http://www.dba-oracle.com/t_error_code_list.htm //compelete error list
 https://docs.oracle.com/cd/B19306_01/server.102/b14219.pdf //complete list
 
+Event streaming refers to the continuous flow of events, each containing information about a specific event or change of state. Event streams are processed in real-time as they are delivered to a system.
