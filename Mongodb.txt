@@ -1,5 +1,6 @@
 https://www.mongodb.com/developer/languages/java/java-change-streams/
 https://ververica.github.io/flink-cdc-connectors/release-2.1/content/connectors/mongodb-cdc.html
+https://github.com/ververica/flink-cdc-connectors/tree/master/flink-connector-mongodb-cdc
 https://www.mongodb.com/docs/manual/changeStreams/
 https://github.com/mongo-flink/mongo-flink
 https://www.ververica.com/blog/the-release-of-flink-cdc-2.3
