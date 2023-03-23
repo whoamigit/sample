@@ -9,3 +9,4 @@ https://www.ververica.com/blog/the-release-of-flink-cdc-2.3
 https://github.com/mongo-flink/mongo-flink. //VIP
 https://www.alibabacloud.com/blog/flink-cdc-series-part-2-flink-mongodb-cdc-production-practices-in-xtransfer_598911
 https://www.mongodb.com/docs/kafka-connector/current/sink-connector/fundamentals/change-data-capture/. //VIP
+https://github.com/mongodb/mongo-kafka
