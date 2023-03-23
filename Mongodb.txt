@@ -4,3 +4,5 @@ https://github.com/ververica/flink-cdc-connectors/tree/master/flink-connector-mo
 https://www.mongodb.com/docs/manual/changeStreams/
 https://github.com/mongo-flink/mongo-flink
 https://www.ververica.com/blog/the-release-of-flink-cdc-2.3
+
+https://github.com/mongo-flink/mongo-flink. //VIP
