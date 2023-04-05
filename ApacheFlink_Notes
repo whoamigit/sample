@@ -1,3 +1,4 @@
+https://www.doc.ic.ac.uk/~pms20/post/stream-processing-thread-model/   //Apache flink internal diagram, VIP. 
 https://nightlies.apache.org/flink/flink-docs-release-1.7/concepts/runtime.html#tasks-and-operator-chains
 https://cwiki.apache.org/confluence/display/FLINK/Task+Failures+and+Error+Handling
 https://flink.apache.org/2019/06/05/flink-network-stack.html#credit-based-flow-control.  //credit based control flow
@@ -6,3 +7,5 @@ https://cwiki.apache.org/confluence/display/FLINK/Flink+Internals. //flink inter
 https://nightlies.apache.org/flink/flink-docs-master/docs/internals/job_scheduling/.   //scheduling
 https://flink.apache.org/news/2020/10/13/stateful-serverless-internals.html
 https://cwiki.apache.org/confluence/display/FLINK/FLIP-94%3A+Rework+2-phase+commit+abstractions
+
+https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.html //why apache flink
