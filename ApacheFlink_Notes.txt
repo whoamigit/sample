@@ -25,5 +25,6 @@ https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.h
 
 =============
 Questions 
+1.Is checkpoint is triggerd per job graph or Source graph. 
 
 =========
