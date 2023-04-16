@@ -1,4 +1,6 @@
  https://stackoverflow.com/questions/52009948/multiple-jobs-or-multiple-pipelines-in-one-job-in-flink   //VIP flink single job v/s mulitple s
+ 
+ https://www.slideshare.net/FlinkForward/processing-semanticallyordered-streams-in-financial-services.  // VIP VIP Processing Semantically-Ordered Streams in Financial Services
 
 https://www.doc.ic.ac.uk/~pms20/post/stream-processing-thread-model/   //Apache flink internal diagram, VIP. 
 https://nightlies.apache.org/flink/flink-docs-release-1.7/concepts/runtime.html#tasks-and-operator-chains
