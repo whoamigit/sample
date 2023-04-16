@@ -22,3 +22,8 @@ https://flink.apache.org/news/2020/10/13/stateful-serverless-internals.html
 https://cwiki.apache.org/confluence/display/FLINK/FLIP-94%3A+Rework+2-phase+commit+abstractions
 
 https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.html //why apache flink
+
+=============
+Questions 
+
+=========
