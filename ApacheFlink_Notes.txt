@@ -23,6 +23,10 @@ https://cwiki.apache.org/confluence/display/FLINK/FLIP-94%3A+Rework+2-phase+comm
 
 https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.html //why apache flink
 
+======
+Event design
+https://serverlessland.com/event-driven-architecture/designing-events
+
 =============
 Questions 
 1.Is checkpoint is triggerd per job graph or Source graph. 
