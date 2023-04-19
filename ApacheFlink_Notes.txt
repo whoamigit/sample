@@ -26,8 +26,11 @@ https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.h
 ======
 Event design
 https://serverlessland.com/event-driven-architecture/designing-events
-
 =============
+Performance /latecy measurement 
+https://flink.apache.org/2022/05/18/getting-into-low-latency-gears-with-apache-flink-part-one/ //VIP
+
+-============
 Questions 
 1.Is checkpoint is triggerd per job graph or Source graph. 
 
