@@ -10,6 +10,9 @@ https://stackoverflow.com/questions/50719147/apache-flink-guideliness-for-settin
 https://shopify.engineering/optimizing-apache-flink-tips-part-two
 
 ========
+
+https://www.alibabacloud.com/blog/flink-checkpoints-principles-and-practices-flink-advanced-tutorials_596631?spm=a2c65.11461447.0.0.1f1f319av8tYBk
+
 https://flink.apache.org/2022/05/30/improving-speed-and-stability-of-checkpointing-with-generic-log-based-incremental-checkpoints/
 https://cwiki.apache.org/confluence/display/FLINK/FLIP-158%3A+Generalized+incremental+checkpoints
 
