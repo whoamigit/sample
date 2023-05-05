@@ -5,8 +5,12 @@
 https://flink.apache.org/2019/06/05/a-deep-dive-into-flinks-network-stack/.  //Network stack dep
 ===
 Perf testing 
+https://stackoverflow.com/questions/70202313/what-does-latency-metrics-represent-in-flink-and-are-them-really-valid-to-evalua
 https://cwiki.apache.org/confluence/plugins/servlet/mobile?contentId=134745761#content/view/134745761
 https://flink.apache.org/2022/05/18/getting-into-low-latency-gears-with-apache-flink-part-one/
+
+https://flink.apache.org/2022/05/18/getting-into-low-latency-gears-with-apache-flink-part-one/ //VIP
+https://www.youtube.com/watch?v=4dwwokhQHwo&ab_channel=FlinkForward
 
 =========
  // VIP, guideline setting parallesim 
@@ -36,10 +40,8 @@ https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.h
 ======
 Event design
 https://serverlessland.com/event-driven-architecture/designing-events
-=============
-Performance /latecy measurement 
-https://flink.apache.org/2022/05/18/getting-into-low-latency-gears-with-apache-flink-part-one/ //VIP
-https://www.youtube.com/watch?v=4dwwokhQHwo&ab_channel=FlinkForward
+============
+
 
 -============
 Questions 
