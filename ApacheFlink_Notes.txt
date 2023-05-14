@@ -36,6 +36,14 @@ https://flink.apache.org/news/2020/10/13/stateful-serverless-internals.html
 https://cwiki.apache.org/confluence/display/FLINK/FLIP-94%3A+Rework+2-phase+commit+abstractions
 
 https://www.oreilly.com/library/view/introduction-to-apache/9781491977132/ch01.html //why apache flink
+==========
+Checkpointing
+
+Kafka + Flink: A Practical, How-To Guide
+https://www.ververica.com/blog/kafka-flink-a-practical-how-to   //VIP VIP 
+
+Click-Through Example for Flink’s KafkaConsumer Checkpointing. //VIP VIP
+https://www.slideshare.net/robertmetzger1/clickthrough-example-for-flinks-kafkaconsumer-checkpointing
 
 ======
 Event design
