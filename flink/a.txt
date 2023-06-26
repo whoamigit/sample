@@ -1,1 +1,38 @@
+Hi , everyone! My name is @JackY@, and today I'll be talking about @EAGLE@. 
+
+@EAGLE@ is a framework currently being developed by our team. It is built on top of Apache Flink.
+
+
+Before we delve into the details of @EAGLE@, let's touch base on the concept of an event streaming platform. 
+An event streaming platform consists of three main components. 
+    First, we have the event streaming source, where systems or applications generate events. These events can come from various sources like e-commerce platforms, social media platforms, or banking transactions. 
+
+An event is simply a simple message that carries information about an action or a change in state.
+
+Next, we have the Event HUB, which acts as a buffer store for these event messages. In most cases, Kafka is used as the event hub technology. 
+
+Finally, we have the Event Stream Processor. This is where the events are processed and analyzed. 
+
+Examples:
+1. E-Commerice, 
+
+    Imagine shopping online: browsing, adding items to your cart, and making a purchase.
+     Each action generates an event with details like the product, price, and user information.
+     These events flow through the event streaming platform. The event stream processor analyzes the events and performs actions like updating orders or triggering notifications.
+
+2. Banking transctions. 
+
+ In banking, every transaction generates an event, such as withdrawing money or depositing funds.
+ These events contain important details like the transaction amount, account numbers, and timestamps.
+
+
+Streaming processor is generic word in the Streaming technolgoy. there're many vendors for it. one of the is  Apache Flink.
+
+ It is an open-source framework designed specifically for processing large amounts of data. Flink places a strong emphasis on low latency and high throughput, meaning it can handle a large volume of data quickly and efficiently.
+
+flink can scale horizontally by spreading the workload across multiple machines. Even if one machine fails, Flink has built-in fault tolerance, ensuring that no data is lost, and the processing results remain consistent.
+
+
+Additionally, Flink offers a wide range of connectors that enable seamless integration with various systems. This includes file systems, message brokers, and databases.
+
 
