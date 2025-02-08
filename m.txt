@@ -1,0 +1,34 @@
+flowchart TD
+    subgraph "Application"
+        AC[Application Code]
+        CP[Config Properties]
+        PP[Polling Process]
+        CS[Change Stream Listener]
+    end
+
+    subgraph "MongoDB"
+        MC[(MongoDB Collection)]
+        CL[Change Log Ops]
+    end
+
+    %% Polling Flow
+    PP -->|"1. Poll every N seconds"| MC
+    MC -->|"2. Return config"| PP
+    PP -->|"3. Update config"| CP
+
+    %% Change Stream Flow
+    MC -->|"1. Write operations"| CL
+    CL -->|"2. Emit changes"| CS
+    CS -->|"3. Real-time updates"| CP
+
+    %% Application Usage
+    AC -->|"Read"| CP
+    
+    style MC fill:#4CAF50,color:#fff
+    style CP fill:#2196F3,color:#fff
+    style PP fill:#FFA726,color:#fff
+    style CS fill:#FF7043,color:#fff
+    style CL fill:#66BB6A,color:#fff
+    style AC fill:#9C27B0,color:#fff
+
+    classDef default fill:#fff,stroke:#333,stroke-width:2px
