@@ -1,0 +1,23 @@
+sequenceDiagram
+    participant A as Application
+    participant CM as Config Manager
+    participant P as Poller
+    participant CS as Change Stream
+    participant M as MongoDB
+
+    Note over P,CS: Two parallel update mechanisms
+    
+    rect rgb(240, 248, 255)
+        Note over A,M: Polling Flow
+        P->>M: Poll for changes
+        M-->>P: Return updates
+        P->>CM: Update configuration
+        CM->>A: Notify changes
+    end
+    
+    rect rgb(255, 248, 240)
+        Note over A,M: Change Stream Flow
+        M->>CS: Emit change event
+        CS->>CM: Process update
+        CM->>A: Notify changes
+    end
