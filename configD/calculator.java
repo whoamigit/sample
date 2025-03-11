@@ -352,3 +352,110 @@ e
   <!-- Title -->
   <text x="300" y="40" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Current Manual Process Workflow</text>
 </svg>
+  g
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400">
+  <!-- Background -->
+  <rect width="700" height="400" fill="white" />
+  
+  <!-- Title -->
+  <text x="350" y="35" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">OPS Team Manual Business Activities</text>
+  
+  <!-- Ops Team Group Box -->
+  <rect x="50" y="60" width="600" height="120" rx="10" fill="#f2f9ff" stroke="#0066cc" stroke-width="2" stroke-dasharray="5,3" />
+  <text x="100" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#0066cc" text-anchor="start">PASS Operations Team</text>
+  
+  <!-- Multiple team members -->
+  <!-- Team Member 1 -->
+  <circle cx="120" cy="120" r="20" fill="#99ccff" stroke="#0066cc" stroke-width="2" />
+  <path d="M120,140 L120,170 M110,155 L120,170 L130,155 M120,170 L120,190 M110,190 L130,190" 
+        fill="none" stroke="#0066cc" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Team Member 2 -->
+  <circle cx="180" cy="120" r="20" fill="#99ccff" stroke="#0066cc" stroke-width="2" />
+  <path d="M180,140 L180,170 M170,155 L180,170 L190,155 M180,170 L180,190 M170,190 L190,190" 
+        fill="none" stroke="#0066cc" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Team Member 3 -->
+  <circle cx="240" cy="120" r="20" fill="#99ccff" stroke="#0066cc" stroke-width="2" />
+  <path d="M240,140 L240,170 M230,155 L240,170 L250,155 M240,170 L240,190 M230,190 L250,190" 
+        fill="none" stroke="#0066cc" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Stress/Overwork Indicators -->
+  <text x="115" y="110" font-family="Arial" font-size="15" text-anchor="middle">😓</text>
+  <text x="175" y="110" font-family="Arial" font-size="15" text-anchor="middle">😩</text>
+  <text x="235" y="110" font-family="Arial" font-size="15" text-anchor="middle">😥</text>
+  
+  <!-- Manual Tools -->
+  <rect x="290" y="100" width="80" height="40" rx="5" fill="#ffffcc" stroke="#cc9900" stroke-width="2" />
+  <text x="330" y="125" font-family="Arial" font-size="12" text-anchor="middle">Manual Tools</text>
+  
+  <!-- Computer/Terminal -->
+  <rect x="400" y="90" width="60" height="50" rx="5" fill="#e6e6e6" stroke="#666" stroke-width="2" />
+  <rect x="410" y="100" width="40" height="25" rx="2" fill="#ffffff" stroke="#666" stroke-width="1" />
+  <rect x="420" y="130" width="20" height="5" rx="1" fill="#999" />
+  
+  <!-- Critical alert symbols -->
+  <circle cx="480" cy="110" r="15" fill="#ffcccc" stroke="#cc0000" stroke-width="2" />
+  <text x="480" y="115" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">!</text>
+  <circle cx="510" cy="110" r="15" fill="#ffcccc" stroke="#cc0000" stroke-width="2" />
+  <text x="510" y="115" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">!</text>
+  <circle cx="540" cy="110" r="15" fill="#ffcccc" stroke="#cc0000" stroke-width="2" />
+  <text x="540" y="115" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">!</text>
+  
+  <!-- Clock/SLA indicator -->
+  <circle cx="610" cy="110" r="25" fill="white" stroke="#cc0000" stroke-width="2" />
+  <line x1="610" y1="110" x2="610" y2="95" stroke="#cc0000" stroke-width="2" />
+  <line x1="610" y1="110" x2="625" y2="110" stroke="#cc0000" stroke-width="2" />
+  <text x="610" y="140" font-family="Arial" font-size="10" text-anchor="middle" fill="#cc0000">SLA Countdown</text>
+  
+  <!-- Manual Activities Section -->
+  <rect x="50" y="220" width="600" height="160" rx="10" fill="#f9f9f9" stroke="#666" stroke-width="1" />
+  <text x="350" y="240" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Manual Business Activities</text>
+  
+  <!-- Database Operations Box -->
+  <rect x="80" y="260" width="160" height="100" rx="5" fill="#e6f2ff" stroke="#0066cc" stroke-width="2" />
+  <text x="160" y="280" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Database Operations</text>
+  
+  <!-- Database icon -->
+  <ellipse cx="110" cy="310" rx="25" ry="7" fill="#cce0ff" stroke="#0066cc" stroke-width="1" />
+  <path d="M85,310 L85,330 Q85,337 110,337 Q135,337 135,330 L135,310" fill="none" stroke="#0066cc" stroke-width="1" />
+  <path d="M85,320 Q85,327 110,327 Q135,327 135,320" fill="none" stroke="#0066cc" stroke-width="1" />
+  
+  <!-- DB Operation text -->
+  <text x="160" y="305" font-family="Arial" font-size="10" text-anchor="start">• Modify entries</text>
+  <text x="160" y="320" font-family="Arial" font-size="10" text-anchor="start">• Update records</text>
+  <text x="160" y="335" font-family="Arial" font-size="10" text-anchor="start">• Delete failed notifications</text>
+  
+  <!-- API Calls Box -->
+  <rect x="270" y="260" width="160" height="100" rx="5" fill="#fff2e6" stroke="#ff8c00" stroke-width="2" />
+  <text x="350" y="280" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">API Calls</text>
+  
+  <!-- API icon -->
+  <rect x="290" y="300" width="30" height="30" rx="3" fill="#ffe6cc" stroke="#ff8c00" stroke-width="1" />
+  <text x="305" y="320" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle">API</text>
+  
+  <!-- API Operation text -->
+  <text x="350" y="305" font-family="Arial" font-size="10" text-anchor="start">• Invoke API calls</text>
+  <text x="350" y="320" font-family="Arial" font-size="10" text-anchor="start">• Retry failed requests</text>
+  <text x="350" y="335" font-family="Arial" font-size="10" text-anchor="start">• Monitor responses</text>
+  
+  <!-- Message Queue Box -->
+  <rect x="460" y="260" width="160" height="100" rx="5" fill="#e6ffe6" stroke="#00cc00" stroke-width="2" />
+  <text x="540" y="280" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Message Queue</text>
+  
+  <!-- Queue icon -->
+  <rect x="480" y="295" width="40" height="8" rx="2" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+  <rect x="480" y="307" width="40" height="8" rx="2" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+  <rect x="480" y="319" width="40" height="8" rx="2" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+  <rect x="480" y="331" width="40" height="8" rx="2" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+  
+  <!-- Queue Operation text -->
+  <text x="540" y="305" font-family="Arial" font-size="10" text-anchor="start">• Send events to Kafka</text>
+  <text x="540" y="320" font-family="Arial" font-size="10" text-anchor="start">• Manage MQ connections</text>
+  <text x="540" y="335" font-family="Arial" font-size="10" text-anchor="start">• Process queued messages</text>
+  
+  <!-- Connecting dotted lines from team to activities -->
+  <path d="M120,190 C120,220 100,240 160,260" fill="none" stroke="#0066cc" stroke-width="1.5" stroke-dasharray="4,2" />
+  <path d="M180,190 C180,220 200,240 350,260" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-dasharray="4,2" />
+  <path d="M240,190 C240,230 300,240 540,260" fill="none" stroke="#00cc00" stroke-width="1.5" stroke-dasharray="4,2" />
+</svg>
