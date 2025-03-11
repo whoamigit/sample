@@ -459,3 +459,213 @@ e
   <path d="M180,190 C180,220 200,240 350,260" fill="none" stroke="#ff8c00" stroke-width="1.5" stroke-dasharray="4,2" />
   <path d="M240,190 C240,230 300,240 540,260" fill="none" stroke="#00cc00" stroke-width="1.5" stroke-dasharray="4,2" />
 </svg>
+mk
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 550">
+  <!-- Background -->
+  <rect width="750" height="550" fill="white" />
+  
+  <!-- Title -->
+  <text x="375" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Self-Healing System Architecture</text>
+  
+  <!-- Systems/Applications Section -->
+  <rect x="30" y="60" width="180" height="180" rx="10" fill="#f9f9f9" stroke="#666" stroke-width="1" />
+  <text x="120" y="80" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Application Environment</text>
+  
+  <!-- Database -->
+  <rect x="60" y="100" width="120" height="30" rx="5" fill="#e6f2ff" stroke="#0066cc" stroke-width="1" />
+  <text x="120" y="120" font-family="Arial" font-size="12" text-anchor="middle">Database</text>
+  
+  <!-- API -->
+  <rect x="60" y="150" width="120" height="30" rx="5" fill="#e6f2ff" stroke="#0066cc" stroke-width="1" />
+  <text x="120" y="170" font-family="Arial" font-size="12" text-anchor="middle">API Services</text>
+  
+  <!-- Message Queue -->
+  <rect x="60" y="200" width="120" height="30" rx="5" fill="#e6f2ff" stroke="#0066cc" stroke-width="1" />
+  <text x="120" y="220" font-family="Arial" font-size="12" text-anchor="middle">Kafka/MQ</text>
+  
+  <!-- Failure Indicators -->
+  <circle cx="190" cy="115" r="10" fill="#ffcccc" stroke="#cc0000" stroke-width="1" />
+  <text x="190" y="119" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#cc0000">!</text>
+  
+  <circle cx="190" cy="165" r="10" fill="#ffcccc" stroke="#cc0000" stroke-width="1" />
+  <text x="190" y="169" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#cc0000">!</text>
+  
+  <circle cx="190" cy="215" r="10" fill="#ffcccc" stroke="#cc0000" stroke-width="1" />
+  <text x="190" y="219" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#cc0000">!</text>
+  
+  <!-- Self-Healing System Box -->
+  <rect x="250" y="60" width="470" height="430" rx="15" fill="#f5faff" stroke="#0066cc" stroke-width="2" />
+  <text x="485" y="80" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#0066cc">WATCHER: Self-Healing System</text>
+  
+  <!-- Layer 1: Monitoring -->
+  <rect x="290" y="100" width="390" height="80" rx="10" fill="#e6f2ff" stroke="#0066cc" stroke-width="2" />
+  <text x="335" y="125" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Monitoring Layer</text>
+  <text x="335" y="145" font-family="Arial" font-size="10" text-anchor="middle">Detect failures across all</text>
+  <text x="335" y="160" font-family="Arial" font-size="10" text-anchor="middle">integration points</text>
+  
+  <!-- Monitoring icons -->
+  <circle cx="420" cy="140" r="25" fill="#cce0ff" stroke="#0066cc" stroke-width="1" />
+  <path d="M400,140 L440,140 M420,120 L420,160" stroke="#0066cc" stroke-width="1" />
+  <path d="M405,125 Q420,110 435,125" stroke="#0066cc" stroke-width="1" />
+  <path d="M405,155 Q420,170 435,155" stroke="#0066cc" stroke-width="1" />
+  
+  <!-- Monitoring visualization -->
+  <path d="M470,130 L480,125 L490,145 L500,120 L510,135 L520,125 L530,140 L540,130 L550,140 L560,125 L570,130 L580,115 L590,140 L600,125 L610,130 L620,120" fill="none" stroke="#0066cc" stroke-width="1" />
+  <path d="M470,150 L480,155 L490,145 L500,160 L510,145 L520,155 L530,140 L540,150 L550,140 L560,155 L570,150 L580,165 L590,140 L600,155 L610,150 L620,160" fill="none" stroke="#cc0000" stroke-width="1" stroke-dasharray="2,1" />
+  <text x="550" y="175" font-family="Arial" font-size="8" text-anchor="middle">Anomaly Detection</text>
+  
+  <!-- Layer 2: Classification -->
+  <rect x="290" y="200" width="390" height="80" rx="10" fill="#fff2e6" stroke="#ff8c00" stroke-width="2" />
+  <text x="335" y="225" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Classification Engine</text>
+  <text x="335" y="245" font-family="Arial" font-size="10" text-anchor="middle">Categorize failures by</text>
+  <text x="335" y="260" font-family="Arial" font-size="10" text-anchor="middle">type and severity</text>
+  
+  <!-- Classification visual: categories -->
+  <rect x="440" y="215" width="50" height="20" rx="3" fill="#ffcccc" stroke="#cc0000" stroke-width="1" />
+  <text x="465" y="229" font-family="Arial" font-size="8" text-anchor="middle">Critical</text>
+  
+  <rect x="500" y="215" width="50" height="20" rx="3" fill="#ffe6cc" stroke="#ff8c00" stroke-width="1" />
+  <text x="525" y="229" font-family="Arial" font-size="8" text-anchor="middle">High</text>
+  
+  <rect x="560" y="215" width="50" height="20" rx="3" fill="#ffffcc" stroke="#cccc00" stroke-width="1" />
+  <text x="585" y="229" font-family="Arial" font-size="8" text-anchor="middle">Medium</text>
+  
+  <rect x="620" y="215" width="50" height="20" rx="3" fill="#e6ffcc" stroke="#66cc00" stroke-width="1" />
+  <text x="645" y="229" font-family="Arial" font-size="8" text-anchor="middle">Low</text>
+  
+  <!-- Failure types -->
+  <rect x="420" y="245" width="80" height="15" rx="2" fill="#f2f2f2" stroke="#666" stroke-width="1" />
+  <text x="460" y="256" font-family="Arial" font-size="7" text-anchor="middle">DB Connection</text>
+  
+  <rect x="510" y="245" width="80" height="15" rx="2" fill="#f2f2f2" stroke="#666" stroke-width="1" />
+  <text x="550" y="256" font-family="Arial" font-size="7" text-anchor="middle">API Timeout</text>
+  
+  <rect x="600" y="245" width="80" height="15" rx="2" fill="#f2f2f2" stroke="#666" stroke-width="1" />
+  <text x="640" y="256" font-family="Arial" font-size="7" text-anchor="middle">Kafka Connection</text>
+  
+  <rect x="460" y="265" width="80" height="15" rx="2" fill="#f2f2f2" stroke="#666" stroke-width="1" />
+  <text x="500" y="276" font-family="Arial" font-size="7" text-anchor="middle">MQ Exception</text>
+  
+  <rect x="550" y="265" width="80" height="15" rx="2" fill="#f2f2f2" stroke="#666" stroke-width="1" />
+  <text x="590" y="276" font-family="Arial" font-size="7" text-anchor="middle">SLA Breach</text>
+  
+  <!-- Layer 3: Recovery -->
+  <rect x="290" y="300" width="390" height="100" rx="10" fill="#e6ffcc" stroke="#66cc00" stroke-width="2" />
+  <text x="335" y="325" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Recovery Workflows</text>
+  <text x="335" y="345" font-family="Arial" font-size="10" text-anchor="middle">Automated procedures</text>
+  <text x="335" y="360" font-family="Arial" font-size="10" text-anchor="middle">for each failure type</text>
+  
+  <!-- Recovery visual: action types -->
+  <g transform="translate(420, 315)">
+    <circle cx="0" cy="0" r="20" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+    <text x="0" y="4" font-family="Arial" font-size="8" text-anchor="middle">Reconnect</text>
+    <path d="M-8,-10 C-15,0 -15,10 -8,10 C0,10 0,-10 8,-10 C15,-10 15,0 8,10" fill="none" stroke="#00cc00" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(490, 315)">
+    <circle cx="0" cy="0" r="20" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+    <text x="0" y="4" font-family="Arial" font-size="8" text-anchor="middle">Retry</text>
+    <polygon points="-10,0 0,-10 10,0 0,10" fill="none" stroke="#00cc00" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(560, 315)">
+    <circle cx="0" cy="0" r="20" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+    <text x="0" y="4" font-family="Arial" font-size="8" text-anchor="middle">Re-route</text>
+    <path d="M-10,-5 L0,-5 L0,-10 L10,0 L0,10 L0,5 L-10,5 Z" fill="none" stroke="#00cc00" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(630, 315)">
+    <circle cx="0" cy="0" r="20" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+    <text x="0" y="4" font-family="Arial" font-size="8" text-anchor="middle">Restart</text>
+    <path d="M-5,-10 L5,-10 L5,-5 L10,-5 L0,5 L-10,-5 L-5,-5 Z" fill="none" stroke="#00cc00" stroke-width="1" />
+  </g>
+  
+  <!-- Healing visualization with gears and arrows -->
+  <rect x="410" y="350" width="250" height="40" rx="5" fill="white" stroke="#66cc00" stroke-width="1" />
+  <text x="535" y="365" font-family="Arial" font-size="8" text-anchor="middle">Automated Healing Actions</text>
+  <text x="460" y="380" font-family="Arial" font-size="7" text-anchor="middle" fill="#666">• Reset connections</text>
+  <text x="535" y="380" font-family="Arial" font-size="7" text-anchor="middle" fill="#666">• Recreate API sessions</text>
+  <text x="610" y="380" font-family="Arial" font-size="7" text-anchor="middle" fill="#666">• Reprocess failed messages</text>
+  
+  <!-- Layer 4: Reporting -->
+  <rect x="290" y="420" width="390" height="60" rx="10" fill="#f2e6ff" stroke="#9933cc" stroke-width="2" />
+  <text x="335" y="445" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Reporting Dashboard</text>
+  <text x="335" y="465" font-family="Arial" font-size="10" text-anchor="middle">Track recovery success rates</text>
+  
+  <!-- Dashboard preview -->
+  <rect x="400" y="430" width="270" height="40" rx="3" fill="white" stroke="#9933cc" stroke-width="1" />
+  <path d="M410,450 L430,445 L450,455 L470,435 L490,460 L510,450 L530,440 L550,450 L570,445 L590,460 L610,440 L630,450 L650,445" fill="none" stroke="#66cc00" stroke-width="1" />
+  <text x="535" y="465" font-family="Arial" font-size="8" text-anchor="middle">Recovery Success Rate: 97.5%</text>
+  
+  <!-- Arrows between layers -->
+  <line x1="485" y1="180" x2="485" y2="200" stroke="#0066cc" stroke-width="2" />
+  <polygon points="485,200 480,190 490,190" fill="#0066cc" />
+  
+  <line x1="485" y1="280" x2="485" y2="300" stroke="#ff8c00" stroke-width="2" />
+  <polygon points="485,300 480,290 490,290" fill="#ff8c00" />
+  
+  <line x1="485" y1="400" x2="485" y2="420" stroke="#66cc00" stroke-width="2" />
+  <polygon points="485,420 480,410 490,410" fill="#66cc00" />
+  
+  <!-- Failure detection flow -->
+  <path d="M210,115 C230,115 240,130 260,130" fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="4,2" />
+  <path d="M210,165 C230,165 240,140 260,140" fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="4,2" />
+  <path d="M210,215 C230,215 240,150 260,150" fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="4,2" />
+  
+  <!-- Healing flow back to systems -->
+  <path d="M290,350 C250,350 240,115 210,115" fill="none" stroke="#00cc00" stroke-width="2" stroke-dasharray="4,2" />
+  <polygon points="210,115 220,110 220,120" fill="#00cc00" />
+  
+  <path d="M290,350 C260,350 250,165 210,165" fill="none" stroke="#00cc00" stroke-width="2" stroke-dasharray="4,2" />
+  <polygon points="210,165 220,160 220,170" fill="#00cc00" />
+  
+  <path d="M290,350 C270,350 260,215 210,215" fill="none" stroke="#00cc00" stroke-width="2" stroke-dasharray="4,2" />
+  <polygon points="210,215 220,210 220,220" fill="#00cc00" />
+  
+  <!-- Before/After Indicators -->
+  <rect x="30" y="280" width="80" height="25" rx="5" fill="#ffcccc" stroke="#cc0000" stroke-width="1" />
+  <text x="70" y="297" font-family="Arial" font-size="10" text-anchor="middle">BEFORE</text>
+  
+  <rect x="130" y="280" width="80" height="25" rx="5" fill="#ccffcc" stroke="#00cc00" stroke-width="1" />
+  <text x="170" y="297" font-family="Arial" font-size="10" text-anchor="middle">AFTER</text>
+  
+  <!-- Problem Scenario -->
+  <g transform="translate(100, 335)">
+    <rect x="-50" y="-25" width="100" height="90" rx="10" fill="#fff0f0" stroke="#cc0000" stroke-width="1" />
+    <text x="0" y="-10" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle">Problems</text>
+    <text x="0" y="10" font-family="Arial" font-size="8" text-anchor="middle">• Manual intervention</text>
+    <text x="0" y="25" font-family="Arial" font-size="8" text-anchor="middle">• SLA breaches</text>
+    <text x="0" y="40" font-family="Arial" font-size="8" text-anchor="middle">• System downtime</text>
+    <text x="0" y="55" font-family="Arial" font-size="8" text-anchor="middle">• Resource intensive</text>
+  </g>
+  
+  <!-- Solution Benefits -->
+  <g transform="translate(100, 440)">
+    <rect x="-50" y="-25" width="100" height="90" rx="10" fill="#f0fff0" stroke="#00cc00" stroke-width="1" />
+    <text x="0" y="-10" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle">Benefits</text>
+    <text x="0" y="10" font-family="Arial" font-size="8" text-anchor="middle">• Automated recovery</text>
+    <text x="0" y="25" font-family="Arial" font-size="8" text-anchor="middle">• Reduced downtime</text>
+    <text x="0" y="40" font-family="Arial" font-size="8" text-anchor="middle">• SLA compliance</text>
+    <text x="0" y="55" font-family="Arial" font-size="8" text-anchor="middle">• Resource optimization</text>
+  </g>
+  
+  <!-- Legend -->
+  <rect x="30" y="530" width="10" height="10" fill="#e6f2ff" stroke="#0066cc" stroke-width="1" />
+  <text x="45" y="538" font-family="Arial" font-size="8" text-anchor="start">Monitoring</text>
+  
+  <rect x="120" y="530" width="10" height="10" fill="#fff2e6" stroke="#ff8c00" stroke-width="1" />
+  <text x="135" y="538" font-family="Arial" font-size="8" text-anchor="start">Classification</text>
+  
+  <rect x="210" y="530" width="10" height="10" fill="#e6ffcc" stroke="#66cc00" stroke-width="1" />
+  <text x="225" y="538" font-family="Arial" font-size="8" text-anchor="start">Recovery</text>
+  
+  <rect x="300" y="530" width="10" height="10" fill="#f2e6ff" stroke="#9933cc" stroke-width="1" />
+  <text x="315" y="538" font-family="Arial" font-size="8" text-anchor="start">Reporting</text>
+  
+  <line x1="380" y1="530" x2="400" y2="530" stroke="#cc0000" stroke-width="2" stroke-dasharray="4,2" />
+  <text x="420" y="538" font-family="Arial" font-size="8" text-anchor="start">Failure Detection</text>
+  
+  <line x1="500" y1="530" x2="520" y2="530" stroke="#00cc00" stroke-width="2" stroke-dasharray="4,2" />
+  <text x="540" y="538" font-family="Arial" font-size="8" text-anchor="start">Healing Flow</text>
+</svg>
+  
